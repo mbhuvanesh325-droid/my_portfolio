@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Me - Get in Touch">
+    <title>Portfolio - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Floating Orbs Background -->
+    <div class="orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">Portfolio</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="about.html" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="projects.html" class="navbar-link">Projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html" class="navbar-link active">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="hero section">
+        <div class="container">
+            <div class="glass-card fade-in">
+                <h1>Get In <span style="background: linear-gradient(135deg, #ffffff 0%, #e0c3fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Touch</span></h1>
+                <p class="contact-hero-description">
+                    Have a project in mind or want to collaborate? I'd love to hear from you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info fade-in">
+                    <h2>Let's Connect</h2>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, or 
+                        opportunities to be part of your vision. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-detail">
+                                <h3>Email</h3>
+                                <p>your.email@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-detail">
+                                <h3>Phone</h3>
+                                <p>+1 (234) 567-8900</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-detail">
+                                <h3>Location</h3>
+                                <p>Your City, Country</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Follow Me</h3>
+                        <div class="footer-social">
+                            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                            <a href="#" class="social-link" aria-label="GitHub">gh</a>
+                            <a href="#" class="social-link" aria-label="Twitter">tw</a>
+                            <a href="#" class="social-link" aria-label="Instagram">ig</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper fade-in">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Subject">
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Your message..."></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="clay-btn">
+                            Send Message
+                        </button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio</h3>
+                    <p>Creating beautiful digital experiences with passion and precision.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link" aria-label="GitHub">gh</a>
+                        <a href="#" class="social-link" aria-label="Twitter">tw</a>
+                        <a href="#" class="social-link" aria-label="Instagram">ig</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="projects.html">Projects</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: your.email@example.com</p>
+                    <p>Phone: +1 (234) 567-8900</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="fab" id="scrollToTop" aria-label="Scroll to top">↑</button>
+
+    <!-- Scripts -->
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

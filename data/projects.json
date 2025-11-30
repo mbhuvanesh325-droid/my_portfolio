@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Music Mobile Application",
+      "description": "A modern music streaming mobile application with intuitive user interface, playlist management, and seamless music discovery experience. Designed for iOS and Android platforms.",
+      "category": "mobile",
+      "tags": ["Mobile App", "UI/UX", "Music", "Figma"],
+      "image": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/w43T4iuEOWCyk3iNOjzVQO/Untitled?node-id=8-383",
+      "figmaUrl": "https://www.figma.com/proto/w43T4iuEOWCyk3iNOjzVQO/Untitled?node-id=8-383&t=95e1P7toB4OHrpHQ-1",
+      "link": "https://www.figma.com/proto/w43T4iuEOWCyk3iNOjzVQO/Untitled?node-id=8-383&t=95e1P7toB4OHrpHQ-1",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Tesla Car Models",
+      "description": "An elegant showcase interface for Tesla car models with interactive 3D views, detailed specifications, and booking functionality. Modern design with smooth animations.",
+      "category": "web",
+      "tags": ["Web Design", "UI/UX", "Automotive", "Figma"],
+      "image": "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/6TmKYNaS9DjXLovYCeZ6Os/Untitled?node-id=7-2",
+      "figmaUrl": "https://www.figma.com/proto/6TmKYNaS9DjXLovYCeZ6Os/Untitled?node-id=7-2&t=1RiFLrP1oVizdjse-1",
+      "link": "https://www.figma.com/proto/6TmKYNaS9DjXLovYCeZ6Os/Untitled?node-id=7-2&t=1RiFLrP1oVizdjse-1",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Restaurant Menu UI",
+      "description": "A beautiful restaurant menu interface with food photography, category filtering, and easy ordering system. Designed to enhance dining experience and increase customer engagement.",
+      "category": "ui",
+      "tags": ["UI/UX", "Restaurant", "Menu Design", "Figma"],
+      "image": "assets/images/projects/restaurant-menu.jpg",
+      "figmaUrl": "",
+      "link": "#",
+      "featured": true
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Projects - Portfolio Showcase">
+    <title>Portfolio - Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Floating Orbs Background -->
+    <div class="orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">Portfolio</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="about.html" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="projects.html" class="navbar-link active">Projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html" class="navbar-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Hero Section -->
+    <section class="hero section">
+        <div class="container">
+            <div class="glass-card fade-in">
+                <h1>My <span style="background: linear-gradient(135deg, #ffffff 0%, #e0c3fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Projects</span></h1>
+                <p class="projects-hero-description">
+                    A collection of my recent work showcasing design, development, and creative solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Filter Section -->
+    <section class="projects-filter-section">
+        <div class="container">
+            <div class="filter-buttons fade-in">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section class="projects section">
+        <div class="container">
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section">
+        <div class="container text-center fade-in">
+            <h2>Have a Project in Mind?</h2>
+            <p>Let's collaborate and bring your ideas to life.</p>
+            <a href="contact.html" class="clay-btn">
+                Start a Project
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio</h3>
+                    <p>Creating beautiful digital experiences with passion and precision.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-link" aria-label="GitHub">gh</a>
+                        <a href="#" class="social-link" aria-label="Twitter">tw</a>
+                        <a href="#" class="social-link" aria-label="Instagram">ig</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="projects.html">Projects</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: your.email@example.com</p>
+                    <p>Phone: +1 (234) 567-8900</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="fab" id="scrollToTop" aria-label="Scroll to top">↑</button>
+
+    <!-- Scripts -->
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

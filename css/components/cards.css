@@ -1,0 +1,271 @@
+/* ============================================
+   Claymorphism Card Components
+   ============================================ */
+
+/* Skill Card */
+.skill-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 35px 30px;
+    text-align: center;
+    transition: var(--transition-base);
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 12px 40px rgba(31, 38, 135, 0.4);
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto var(--spacing-sm);
+    border-radius: var(--radius-md);
+    background: linear-gradient(145deg, var(--surface-light), var(--surface-color));
+    box-shadow: 
+        8px 8px 16px rgba(99, 102, 241, 0.3),
+        -8px -8px 16px rgba(167, 139, 250, 0.3),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.skill-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.skill-card p {
+    font-size: 15px;
+    opacity: 0.85;
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
+
+.skill-card-description {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: var(--spacing-xs);
+}
+
+/* Project Card */
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    transition: var(--transition-base);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(31, 38, 135, 0.5);
+}
+
+.project-card-image-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-card-image {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    transition: var(--transition-slow);
+    object-fit: cover;
+}
+
+.project-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-card:hover .project-card-image {
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-card-image img {
+    transform: scale(1.1);
+}
+
+.project-card-content {
+    padding: 30px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.project-card-description {
+    font-size: 15px;
+    opacity: 0.85;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    flex-grow: 1;
+}
+
+.project-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.project-tag {
+    padding: 6px 16px;
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.project-card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: var(--transition-base);
+    margin-top: auto;
+}
+
+.project-card-link:hover {
+    gap: var(--spacing-sm);
+    color: var(--surface-light);
+}
+
+/* Stat Card */
+.stat-card {
+    text-align: center;
+    padding: var(--spacing-md);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: var(--transition-base);
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(31, 38, 135, 0.4);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #ffffff 0%, #e0c3fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+/* Experience Card */
+.experience-card {
+    position: relative;
+    padding-left: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+    border-left: 2px solid var(--surface-color);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.experience-card::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    background: var(--surface-color);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--surface-color);
+}
+
+.experience-card:last-child {
+    border-left: none;
+}
+
+.experience-date {
+    color: var(--surface-light);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.experience-title {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-xs);
+    color: var(--text-primary);
+}
+
+.experience-company {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.experience-description {
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+/* General Card */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-md);
+    transition: var(--transition-base);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(31, 38, 135, 0.4);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.card-content {
+    position: relative;
+    z-index: 1;
+}
